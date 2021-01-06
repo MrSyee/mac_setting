@@ -15,7 +15,7 @@ cd mac_env
 ```
 
 ``` bash
-./install.sh
+sh ./install.sh
 ```
 
 ### Installing items

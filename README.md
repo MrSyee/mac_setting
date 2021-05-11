@@ -7,7 +7,7 @@ macOS dev environment automation
 ### Installation
 
 ``` bash
-git https://github.com/Onepredict/mac_env.git
+git clone https://github.com/Onepredict/mac_env.git
 ```
 
 ``` bash

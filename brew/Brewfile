@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+
 # brew
 brew "readline"
 brew "cask"
@@ -13,41 +14,45 @@ brew "git"
 brew "git-lfs"
 brew "xz"
 brew "htop"
-brew "jenv"
 brew "mas"
 brew "neofetch"
 brew "neovim"
-brew "nvm"
 brew "putty"
+brew "spectacle"
 brew "pyenv"
 brew "pyenv-virtualenv"
-brew "telnet"
-brew "terraform"
 brew "tmux"
-brew "yarn"
-brew "zsh"
-brew "zsh-completions"
-brew "node.js"
-brew "nginx"
-brew "tomcat@8"
-brew "awscli"
+brew "qview"
+# brew "zsh-completions"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+# brew "awscli"
+# brew "telnet"
+# brew "terraform"
+# brew "jenv"
+# brew "nvm"
+# brew "yarn"
+# brew "node.js"
+# brew "nginx"
+# brew "tomcat@8"
+
 # cask (WEB)
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "iterm2"
 cask "docker"
-cask "mysqlworkbench"
-cask "google-chrome"
 cask "visual-studio-code"
-cask "alfred"
-cask "postman"
+cask "notion"
+cask "google-chrome"
 cask "microsoft-office" # office 365(word, excel, ppt, outlook, onedrive)
 cask "microsoft-teams"
-cask "wireshark" # network packet capture & analysis application
+cask "alfred"
 cask "karabiner-elements"
-cask "sublime-text"
-cask "notion"
+# cask "wireshark" # network packet capture & analysis application
+# cask "postman"
+# cask "adoptopenjdk/openjdk/adoptopenjdk8"
+# cask "mysqlworkbench"
+
 # mas (AppStore): Individual setting
-# mas "KakaoTalk", id: 869223134
-# mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
+mas "KakaoTalk", id: 869223134
+mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
 # mas "MicrosoftRemoteDesktop", id: 1295203466
 # mas "TheUnarchiver", id: 425424353

@@ -28,7 +28,6 @@ sh ./install.sh
     - git-lfs
     - xz
     - htop
-    - jenv
     - mas
     - neofetch
     - neovim
@@ -36,36 +35,24 @@ sh ./install.sh
     - putty
     - pyenv
     - pyenv-virtualenv
-    - telnet
-    - terraform
     - tmux
-    - yarn
-    - zsh
-    - zsh-completions
-    - node.js
-    - nginx
-    - tomcat@8
-    - awscli
+    - spectacle
+    - qview
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
 * cask(WEB)
-    - adoptopenjdk/openjdk/adoptopenjdk8
     - iterm2
     - docker
-    - mysqlworkbench
     - google-chrome
     - visual-studio-code
     - alfred
-    - postman
     - microsoft-office # office 365(word, excel, ppt, outlook, onedrive)
     - microsoft-teams
-    - wireshark # network packet capture & analysis application
     - karabiner-elements
-    - sublime-text
     - notion
 * mas(AppStore)
     - KakaoTalk
     - Hancom Office HWP 2014 VP Viewer
-    - MicrosoftRemoteDesktop, id: 1295203466
-    - TheUnarchiver
 > In the case of mas, there must be a download history at least once
 
 ### Reference

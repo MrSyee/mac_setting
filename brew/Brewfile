@@ -54,5 +54,6 @@ cask "karabiner-elements"
 # mas (AppStore): Individual setting
 mas "KakaoTalk", id: 869223134
 mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
+mas "EasyRes", id: 688211836
 # mas "MicrosoftRemoteDesktop", id: 1295203466
 # mas "TheUnarchiver", id: 425424353

@@ -29,6 +29,10 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # fzf
 echo "\n# fzf" >> ${ZDOTDIR:-$HOME}/.zshrc
 $(brew --prefix)/opt/fzf/install --all
+# pyenv
+echo "\n# pyenv" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo 'eval "$(pyenv init --path)"' >> ${ZDOTDIR:-$HOME}/.zshrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ${ZDOTDIR:-$HOME}/.zshrc
 
 # # When downloading with cask, it is the same as the one downloaded from the web.
 # # so when executed, it is not executed because of a security problem.

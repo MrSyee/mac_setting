@@ -31,6 +31,8 @@ echo "\n# fzf" >> ${ZDOTDIR:-$HOME}/.zshrc
 $(brew --prefix)/opt/fzf/install --all
 # pyenv
 echo "\n# pyenv" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ${ZDOTDIR:-$HOME}/.zshrc
+echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ${ZDOTDIR:-$HOME}/.zshrc
 echo 'eval "$(pyenv init --path)"' >> ${ZDOTDIR:-$HOME}/.zshrc
 echo 'eval "$(pyenv virtualenv-init -)"' >> ${ZDOTDIR:-$HOME}/.zshrc
 

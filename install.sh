@@ -35,6 +35,11 @@ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ${ZDOTDIR:-$HOME}/.zshrc
 echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ${ZDOTDIR:-$HOME}/.zshrc
 echo 'eval "$(pyenv init --path)"' >> ${ZDOTDIR:-$HOME}/.zshrc
 echo 'eval "$(pyenv virtualenv-init -)"' >> ${ZDOTDIR:-$HOME}/.zshrc
+# Docker
+echo "\n# docker" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "etc=/Applications/Docker.app/Contents/Resources/etc" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "ln -s $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 # # When downloading with cask, it is the same as the one downloaded from the web.
 # # so when executed, it is not executed because of a security problem.

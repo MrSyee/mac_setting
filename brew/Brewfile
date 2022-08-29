@@ -39,11 +39,11 @@ brew "zsh-syntax-highlighting"
 # cask (WEB)
 cask "iterm2"
 cask "docker"
-cask "visual-studio-code"
-cask "notion"
-cask "google-chrome"
-cask "microsoft-office" # office 365(word, excel, ppt, outlook, onedrive)
-cask "microsoft-teams"
+# cask "visual-studio-code"
+# cask "notion"
+# cask "google-chrome"
+# cask "microsoft-office" # office 365(word, excel, ppt, outlook, onedrive)
+# cask "microsoft-teams"
 cask "alfred"
 cask "karabiner-elements"
 # cask "wireshark" # network packet capture & analysis application
@@ -52,7 +52,7 @@ cask "karabiner-elements"
 # cask "mysqlworkbench"
 
 # mas (AppStore): Individual setting
-mas "KakaoTalk", id: 869223134
+# mas "KakaoTalk", id: 869223134
 mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
 mas "EasyRes", id: 688211836
 # mas "MicrosoftRemoteDesktop", id: 1295203466

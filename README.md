@@ -7,16 +7,23 @@ macOS dev environment automation
 ### Installation
 
 ``` bash
-git clone https://github.com/Onepredict/mac_env.git
+git clone https://github.com/Onepredict/mac_setting.git
 ```
 
 ``` bash
-cd mac_env
+cd mac_setting
 ```
 
 ``` bash
 sh ./install.sh
 ```
+
+### Details
+1. Install brew
+2. Install packages using brew
+3. Install oh-my-zsh
+4. Modify .zshrc
+5. Change theme of zsh to "powerlevel10k" (Using iterm2)
 
 ### Installing items
 * brew
@@ -59,3 +66,4 @@ sh ./install.sh
 1. Homebrew https://brew.sh/index_ko
 2. mas https://github.com/mas-cli/mas
 3. homebrew-bundle https://github.com/Homebrew/homebrew-bundle
+4. zsh theme powerlevel10k: https://github.com/romkatv/powerlevel10k#fonts

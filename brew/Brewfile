@@ -1,5 +1,5 @@
 # tap: Homebrew 3rd party storage except for default storage (Formulae)
-tap "adoptopenjdk/openjdk"
+# tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -7,7 +7,7 @@ tap "homebrew/core"
 
 # brew
 brew "readline"
-brew "cask"
+# brew "cask"
 brew "curl"
 brew "fzf"
 brew "git"
@@ -37,15 +37,15 @@ brew "zsh-syntax-highlighting"
 # brew "tomcat@8"
 
 # cask (WEB)
-cask "iterm2"
-cask "docker"
+# cask "iterm2"
+# cask "docker"
 # cask "visual-studio-code"
 # cask "notion"
 # cask "google-chrome"
 # cask "microsoft-office" # office 365(word, excel, ppt, outlook, onedrive)
 # cask "microsoft-teams"
-cask "alfred"
-cask "karabiner-elements"
+# cask "alfred"
+# cask "karabiner-elements"
 # cask "wireshark" # network packet capture & analysis application
 # cask "postman"
 # cask "adoptopenjdk/openjdk/adoptopenjdk8"
@@ -53,7 +53,7 @@ cask "karabiner-elements"
 
 # mas (AppStore): Individual setting
 # mas "KakaoTalk", id: 869223134
-mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
-mas "EasyRes", id: 688211836
+# mas "Hancom", id: 416746898 # Hancom Office HWP 2014 VP Viewer
+# mas "EasyRes", id: 688211836
 # mas "MicrosoftRemoteDesktop", id: 1295203466
 # mas "TheUnarchiver", id: 425424353

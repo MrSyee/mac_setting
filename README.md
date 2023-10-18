@@ -24,6 +24,9 @@ sh ./install.sh
 3. Install oh-my-zsh
 4. Modify .zshrc
 5. Change theme of zsh to "powerlevel10k" (Using iterm2)
+6. Change iterms2 setting
+    - Change color: Snazzy + Blue=3a87ad
+    - Change key: Profiles -> Keys -> Key Mappings -> Presets -> Natural Text Editing
 
 ### Installing items
 * brew

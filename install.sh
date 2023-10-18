@@ -7,6 +7,7 @@ if ! which brew
 then
     printf '\n Homebrew not installed in your MacOS! \n'
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
 fi
 
 # sudo authority
